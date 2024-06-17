@@ -67,9 +67,9 @@ To run the script locally, follow these steps:
 
    touch .env
 
-  Add the following line to the .env file:
+   Add the following line to the .env file:
   
-  AZURE_OPENAI_KEY=your_azure_openai_key
+   AZURE_OPENAI_KEY=your_azure_openai_key
 
 4. **Install Required Libraries:** Use requirements.txt to install the necessary libraries.
 
