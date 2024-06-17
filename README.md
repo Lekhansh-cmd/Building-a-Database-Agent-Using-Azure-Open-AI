@@ -54,22 +54,29 @@ To run the script locally, follow these steps:
 
 1. **Clone the Repository**: Start by cloning the repository to your local machine.
    git clone https://github.com/Lekhansh-cmd/Building-a-Database-Agent-Using-Azure-Open-AI.git
+   
    cd your-repository
 
-2. **Set Up a Virtual Environment**: It's recommended to use a virtual environment to manage dependencies.
+3. **Set Up a Virtual Environment**: It's recommended to use a virtual environment to manage dependencies.
+
    python -m venv venv
+
    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 
-3. **Generate .env File:** Create a .env file in the root directory to store your Azure Open AI key.
+5. **Generate .env File:** Create a .env file in the root directory to store your Azure Open AI key.
+
    touch .env
 
   Add the following line to the .env file:
+  
   AZURE_OPENAI_KEY=your_azure_openai_key
 
 4. **Install Required Libraries:** Use requirements.txt to install the necessary libraries.
+
    pip install -r requirements.txt
 
-5. **Run Your Script:** Execute your Python script.
+6. **Run Your Script:** Execute your Python script.
+
    python your_script.py
 
 
